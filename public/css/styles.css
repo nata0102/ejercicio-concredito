@@ -1,0 +1,156 @@
+
+/* ****************************** Formulario ****************************** */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+  /*font-family: 'Poppins', sans-serif;*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #fefefe;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+
+}
+
+::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-color: #999999;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:focus, button:focus{
+  outline: none;
+}
+/********** Preloader **********/
+
+.overflow-hidden{
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.display-none{
+    display: none;
+}
+
+#preloader {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:#333333cc;
+  z-index:99999;
+}
+
+#status {
+  width:200px;
+  height:200px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  background-image:url(../media/loading.gif);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: 50px 50px;
+  margin:-100px 0 0 -100px;
+}
+
+.pre{
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* tablet devices (tablet 768px 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* mobile devices (mobile 767px) */
+@media only screen and (max-width: 767px) {
+
+}
+
+/* mobile devices (mobile 575px) */
+@media only screen and (max-width: 575px) {
+
+}
+
+/* mobile devices (mobile 575px) */
+@media only screen and (max-width: 371px) {
+
+}
